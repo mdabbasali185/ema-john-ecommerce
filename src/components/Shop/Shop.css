@@ -10,3 +10,6 @@
 .products-container .product{
   width: 30%;
 }
+.products-container img{
+  border-radius: 15px;
+}
