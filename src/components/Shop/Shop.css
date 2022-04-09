@@ -1,15 +1,21 @@
 .shop-container {
   display: grid;
   grid-template-columns: 4fr 1fr;
+  margin: 10px 20px;
 }
 .products-container {
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
+
+  justify-content: stretch;
 }
-.products-container .product{
+.products-container .product {
   width: 30%;
 }
-.products-container img{
+.products-container img {
   border-radius: 15px;
+}
+.cart-container {
+  background: rgba(255, 153, 0, 0.3);
 }
